@@ -1,0 +1,22 @@
+{
+    "dev": [
+        "eslint",
+        "test"
+    ],
+    
+    "build": [
+        "dev",
+        "umd",
+        "uglify"
+    ],
+
+    "test": [
+        "umd",
+        "mochaTest"
+    ],
+
+    "default": [
+        "dev",
+        "watch"
+    ]
+}
