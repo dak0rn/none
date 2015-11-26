@@ -6,4 +6,3 @@ node_modules/
 *flycheck*
 .tmp/
 *.tmp*
-dist/
