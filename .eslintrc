@@ -157,13 +157,6 @@
         "space-unary-ops": 0,
         "wrap-regex": 2,
 
-        "constructor-super": 2,
-        "generator-star-spacing": 0,
-        "no-this-before-super": 2,
-        "no-var": 2,
-        "object-shorthand": 0,
-        "prefer-const": 2,
-
         "max-depth": [0, 3],
         "max-len": [1, 121, 2],
         "max-params": 0,
