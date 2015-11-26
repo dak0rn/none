@@ -4,7 +4,7 @@
   "description": "Simply nothing.",
   "main": "none.js",
   "scripts": {
-    "test": "mocha"
+    "test": "grunt test"
   },
   "repository": {
     "type": "git",
