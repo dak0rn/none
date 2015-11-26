@@ -17,6 +17,11 @@
 
     "default": [
         "dev",
-        "watch"
+        "watch:none"
+    ],
+
+    "test-dev": [
+        "test",
+        "watch:test"
     ]
 }
