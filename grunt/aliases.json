@@ -10,9 +10,14 @@
         "uglify"
     ],
 
-    "test": [
+    "coverage": [
         "umd",
         "mocha_istanbul:none"
+    ],
+
+    "test": [
+        "umd",
+        "mochaTest"
     ],
 
     "default": [
