@@ -11,12 +11,12 @@
     ],
 
     "coverage": [
-        "umd",
+        "umd:test",
         "mocha_istanbul:none"
     ],
 
     "test": [
-        "umd",
+        "umd:test",
         "mochaTest"
     ],
 
