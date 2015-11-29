@@ -4,7 +4,7 @@
  *
  * Author:	Daniel Koch <daniel@suitsoft.eu>
  * Creation:	26 Nov 2015
- * Updated:	Time-stamp: <2015-11-26 05:15:06 dak0rn>
+ * Updated:	Time-stamp: <2015-11-29 17:13:55 dak0rn>
  * Version:	1.0 - Initial release
  *
  */
@@ -20,7 +20,8 @@ module.exports = function(grunt) {
 
             // Static mappings of file names to grunt plugins
             staticMappings: {
-                mochaTest: 'grunt-mocha-test'
+                mochaTest: 'grunt-mocha-test',
+                mocha_istanbul: 'grunt-mocha-istanbul'
             }
         }
 

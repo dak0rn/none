@@ -12,7 +12,7 @@
 
     "test": [
         "umd",
-        "mochaTest"
+        "mocha_istanbul:none"
     ],
 
     "default": [
