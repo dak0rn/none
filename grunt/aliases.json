@@ -6,7 +6,7 @@
     
     "build": [
         "dev",
-        "umd",
+        "umd:none",
         "uglify"
     ],
 
