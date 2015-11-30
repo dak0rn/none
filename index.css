@@ -1,0 +1,52 @@
+.container {
+    display: block;
+    margin: 0 auto 5em auto;
+    max-width: 970px;
+}
+
+h1 small {
+    font-size: 0.6em;
+    color: #aaa;
+}
+
+* {
+    font-weight: 300;
+}
+
+p {
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.none-png {
+    float: right;
+    margin-left: 1em;
+}
+
+.clearfix {
+    display: block;
+    float: none;
+    clear: both;
+}
+
+.box-header {
+    text-align: center;
+}
+
+.box {
+    padding: 0.4em 1em;
+}
+
+.pure-menu {
+    border-bottom: #ccc 1px solid;
+    padding-bottom: 0.3em;
+}
+
+pre {
+    background: #eee;
+    padding: 0.8em;
+}
+
+dt {
+    font-family: monospace;
+}

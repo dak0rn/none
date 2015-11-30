@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>none.js</title>
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css" />
+        <link href="index.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+
+            <img src="none.png" class="none-png" />
+            
+            <h1>none.js <small>Simple. Elegant. Flexible. Nothing.</small></h1>
+            
+            <p>
+                none.js is a JavaScript library that leverages the power and flexiblity
+                of JavaScript. It provides you with an unbelievable small and blazingly fast
+                solution for your front-end and back-end applications.
+            </p>
+
+            <div class="clearfix"></div>
+            
+            <div class="pure-menu pure-menu-horizontal">
+                <ul class="pure-menu-list">
+                    <li class="pure-menu-item"><a class="pure-menu-link" href="#why">Why none.js</a></li>
+                    <li class="pure-menu-item"><a class="pure-menu-link" href="#installation">Installation</a></li>
+                    <li class="pure-menu-item"><a class="pure-menu-link" href="#usage">Usage</a></li>
+                    <li class="pure-menu-item"><a class="pure-menu-link" href="#building">Building it</a></li>
+                    <li class="pure-menu-item"><a class="pure-menu-link" href="https://github.com/dak0rn/none">GitHub</a></li>
+                    <li class="pure-menu-item"><a class="pure-menu-link" href="docs/none.html">Documentation</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- Why -->
+        <div class="container" id="why">
+
+            <h2>Why none.js</h2>
+
+            <div class="pure-g">
+                <div class="pure-u-1-3">
+                    <div class="box">
+                        <h2 class="box-header">Small</h2>
+
+                        <p>
+                            The built version of none.js has a file size of 478 bytes.<br />
+                            The minified version has a size of only <strong>196 bytes</strong>.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="pure-u-1-3">
+                    <div class="box">
+                        <h2 class="box-header">Fast</h2>
+
+                        <p>
+                            Faster than Lodash or React, none.js is the tool of choice for environments
+                            where speed is an important factor.
+                        </p>
+                        
+                    </div>
+                </div>
+
+                <div class="pure-u-1-3">
+                    <div class="box">
+                        <h2 class="box-header">Desktop, mobile, server</h2>
+
+                        <p>
+                            Desktop and mobile clients are supported out of the box. Even more, none.js can be used
+                            on the server with node.js without additional configuration.
+                        </p> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="pure-g">
+                <div class="pure-u-1-3">
+                    <div class="box">
+                        <h2 class="box-header">Open Source</h2>
+
+                        <p>
+                            none.js is released under the term of the <a href="https://github.com/dak0rn/none/blob/master/LICENSE">Apache v2.0</a> license.
+                            Thus, it can be used in both Open Source and Closed Source projects.
+                        </p> 
+                    </div>
+                </div>
+                
+                <div class="pure-u-1-3">
+                    <div class="box">
+                        <h2 class="box-header">Code coverage</h2>
+
+                        <p>
+                            Development using BDD, the library comes with a couple of tests and has a code coverage of 100%.<br />
+                            <img src="https://coveralls.io/repos/dak0rn/none/badge.svg?branch=master&service=github" />
+                            <img src="https://travis-ci.org/dak0rn/none.svg" />
+                        </p>
+                        
+                    </div>
+                </div>
+
+                <div class="pure-u-1-3">
+                    <div class="box">
+                        <h2 class="box-header">Documented</h2>
+
+                        <p>
+                            A good documentation is important to enable others to contribute and none.js is very well documented.
+                            You can read the documentation <a href="docs/none.html">here</a>.
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" id="installation">
+                <h2>Installation</h2>
+
+                <p>
+                    none.js is available on <strong>npm</strong>:
+                </p>
+
+                <pre>npm install --save-dev none</pre>
+            </div>
+
+            <div class="container" id="usage">
+                <h2>Usage</h2>
+
+                <p>
+                    none.js uses the <em>Universal Module Definition</em> (UMD) that allows you to import the library in different environments.
+                </p>
+
+                <h3>Browsers</h3>
+
+                <p>
+                    In a browser environment without a module loader the library registers a global <code>none</code> function.
+                </p>
+
+                <pre>&lt;script src="node_modules/none/dist/none.min.js"&gt;&lt;/script&gt;
+// Use window.none()</pre>
+
+                <h3>CommonJS</h3>
+
+                <p>
+                    When using a CommonJS module loader like node does none.js can be imported like any other module.
+                </p>
+
+                <pre>var none = require('none');</pre>
+
+                <h3>ES2015</h3>
+
+                <p>
+                    Since CommonJS modules are supported the module can also be used in (transpiled) ES2015 projects.
+                </p>
+
+                <pre>import none from 'none';</pre>
+
+                <h3>AMD</h3>
+
+                <p>
+                    none.js also supports Asynchronous Module Definitions.
+                </p>
+
+                <pre>define(['none'], function(none) { ... } );</pre>
+
+            </div>
+
+            <div class="container" id="building">
+                <h2>Building it</h2>
+
+                <a href="http://gruntjs.com/"><img src="https://cdn.gruntjs.com/builtwith.png" alt="Built with Grunt"></a>
+
+                <p>
+                    Clone the repository and install the required development dependencies.
+                </p>
+
+                <pre>git clone https://github.com/dak0rn/none.git
+npm install</pre>
+
+                <p>
+                    You need <strong>grunt</strong> to build the project or run the tests.<br />
+                    The grunt tasks are listed in the <code>grunt/aliases.json</code> file. To build the project, run
+                </p>
+
+                <pre>grunt build</pre>
+
+            </div>
+            
+        </div>
+    </body>
+</html>
