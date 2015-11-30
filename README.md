@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/dak0rn/none/master/none.png" alt="none.js logo" />
+<img src="https://raw.githubusercontent.com/dak0rn/none/master/none.png" alt="none.js logo" align="right" />
 
 # none
 ## Simple. Elegant. Flexible. Nothing.
