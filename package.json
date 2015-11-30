@@ -1,6 +1,6 @@
 {
   "name": "none",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Simple. Elegant. Flexible. Nothing.",
   "main": "dist/none.min.js",
   "scripts": {
@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/dak0rn/none/issues"
   },
-  "homepage": "https://github.com/dak0rn/none#readme",
+  "homepage": "https://dak0rn.github.io/none/",
   "devDependencies": {
     "chai": "^3.4.1",
     "coveralls": "^2.11.4",
