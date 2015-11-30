@@ -3,12 +3,12 @@
  *
  * Author:	Daniel Koch <daniel@suitsoft.eu>
  * Creation:	26 Nov 2015
- * Updated:	Time-stamp: <2015-11-30 07:38:28 dak0rn>
+ * Updated:	Time-stamp: <2015-11-30 09:50:00 dak0rn>
  * Version:	1.0 - Initial release
  *
  */
 var expect = require('chai').expect;
-var nonejs = require('../dist/none.js');
+var nonejs = require('../dist/none.test.js');
 
 var noise = (function() {
     var pool = [void 0, null, function(){}, {}, [], false, true];
