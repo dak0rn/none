@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/dak0rn/none/master/none.png" alt="none.js logo" />
+
 # none
 ## Simple. Elegant. Flexible. Nothing.
 
@@ -8,7 +10,7 @@
 Simplicity has never been easier.
 
 This blazingly fast library provides you with a highly reusable solution that helps you
-write JavaScript application. It is well documented, tested and works with nearly every JavaScript
+write sophisticated JavaScript applications. It is well documented, tested and works with nearly every JavaScript
 framework out of the box.
 
 ## Installation
