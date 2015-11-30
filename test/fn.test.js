@@ -3,7 +3,7 @@
  *
  * Author:	Daniel Koch <daniel@suitsoft.eu>
  * Creation:	26 Nov 2015
- * Updated:	Time-stamp: <2015-11-26 06:33:16 dak0rn>
+ * Updated:	Time-stamp: <2015-11-30 07:38:28 dak0rn>
  * Version:	1.0 - Initial release
  *
  */
@@ -65,5 +65,25 @@ describe('none.js function', function() {
             });
         }
         
+    });
+
+    it('should have no influence on 42', function() {
+        nonejs();
+        expect(42).to.equal(42);
+    });
+
+    it('should have no influence on undefined', function() {
+        nonejs();
+        expect(undefined).to.equal(undefined);
+    });
+
+    it('should have no influence on null', function() {
+        nonejs();
+        expect(null).to.equal(null);
+    });
+
+    it('should have no influence on "str"', function() {
+        nonejs();
+        expect('str').to.equal('str');
     });
 });
