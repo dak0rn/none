@@ -8,3 +8,4 @@ node_modules/
 *.tmp*
 coverage/
 docs/
+dist/none.test.js
