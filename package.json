@@ -1,8 +1,8 @@
 {
   "name": "none",
   "version": "0.0.1",
-  "description": "Simply nothing.",
-  "main": "none.js",
+  "description": "Simple. Elegant. Flexible. Nothing.",
+  "main": "dist/none.min.js",
   "scripts": {
     "test": "grunt coverage"
   },
